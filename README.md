@@ -1,4 +1,4 @@
-# firm-websitefirm-website/
+#firm-website/
 plan:
 ├── .git/               # Служебная папка Git
 ├── .gitignore          # Файл-исключений 

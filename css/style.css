@@ -190,24 +190,24 @@ nav .item span{
     background: var(--secondary);
 }
 
-.about-content {
+.about .content {
     display: flex;
     align-items: center;
     gap: 3rem;
 }
 
-.about-text {
+.about p {
     flex: 1;
 }
 
-.about-image {
+.about .image {
     flex: 1;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 5px 15px var(--shadow);
 }
 
-.about-image img {
+.about .image img {
     width: 100%;
     height: auto;
     display: block;
