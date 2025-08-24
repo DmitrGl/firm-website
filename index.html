@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="ru">
 
   <head>
     
@@ -7,9 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="DmitrGl" />
     <meta name="description" 
-      content="Профессиональные услуги в [сфере деятельности]. Гарантия качества, индивидуальный подход, более [X] успешных проектов" />
-    <title>My company site</title>
-    <link rel="icon" href="images/favicon.jpg" type="image/x-icon"/>
+      content="Профессиональные услуги в строительстве. Гарантия качества, индивидуальный подход, более десятка успешных проектов" />
+    <title>Компания "АльянсСтрой" - Главная</title>
+    
+    <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+    <link rel="manifest" href="images/site.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+
     <link rel="stylesheet" href="css/style.css">
     <script src = "js/main.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,19 +36,21 @@
     
   </head>
   
+  
+
   <body>
 
     <header>
     
       <div class="container">
         <nav>
-          <a href="index.html" class="logo">Company<span>Name</span></a>
+          <a href="index.html" class="logo"><img src="images/favicon.ico" alt="Иконка компании: минималистичное изображение нескольких домов на прозрачном фоне">Альянс<span>Строй</span></a>
           <ul class="menu">
-            <li class="item"><span>Home</span></li>
-            <li class="item"><a href=about.html class="link"> About</a></li>
-            <li class="item"><a href=contact.html class="link"> Contact</a></li>
-            <li class="item"><a href=portfolio.html class="link"> Portfolio</a></li>
-            <li class="item"><a href=services.html class="link"> Services</a></li>
+            <li class="item"><span>Главная</span></li>
+            <li class="item"><a href=about.html class="link"> О нас</a></li>
+            <li class="item"><a href=contact.html class="link"> Контакты</a></li>
+            <li class="item"><a href=portfolio.html class="link"> Наши работы</a></li>
+            <li class="item"><a href=services.html class="link"> Услуги</a></li>
           </ul>
         </nav>
         
@@ -53,28 +62,30 @@
 
       <section class="hero">
         <div class="container">
-          <h1 class="title">title</h1>
-          <p class="subtitle"> shortly about company</p>
-          <a href="#" class="btn btn-primary">contact us</a>
-          <a href="#" class="btn">look out our portfolio</a>
+          <h1 class="title"> Ваш надежный партнер в строительстве </h1>
+          <p class="subtitle"> Компания АльянсСтрой предлагает высококачественные строительные услуги для создания вашего идеального дома или коммерческого объекта. Мы гарантируем результат, соответствующий всем вашим ожиданиям</p>
+          <a href="#" class="btn btn-primary">Свяжитесь с нами</a>
+          <a href="#" class="btn">Посмотрите наши работы</a>
         </div>
       </section>
 
       <section class="about">
         <div class="container">
-          <div class="content"></div>
-          <div class="image">
-            <img src="images/placeholder.jpg" alt="opisanie">
+          <div class="content">
+            <div class="image">
+              <img src="images/worker.png" alt="opisanie">
+            </div>
+            <p>
+              <strong>Строим с любовью и профессионализмом</strong> <br>
+              Компания АльянсСтрой предоставляет услуги по строительству и ремонту с акцентом на качество и надежность. Мы понимаем, что каждый проект уникален, и мы готовы предложить индивидуальные решения для каждого клиента.
+            </p>
           </div>
-          <p>
-            Not in great detail about the company
-          </p>
         </div>
       </section>
       
       <section class="section why-us">
         <div class="container">
-          <h2 class="title">why us?</h2>
+          <h2 class="title">Почему выбирают нашу строительную компанию?</h2>
             <div class="features-grid">
               <!-- Преимущество 1 -->
               <div class="feature-card">
@@ -82,7 +93,7 @@
                   <i class="fas fa-award"></i>
                 </div>
                 <h3 class="feature-title">Профессионализм</h3>
-                <p class="feature-text">Наша команда состоит из сертифицированных специалистов с опытом работы более 10 лет в отрасли.</p>
+                <p class="feature-text">Команда сертифицированных специалистов с опытом работы более 10 лет. Строгое соблюдение строительных норм и стандартов.</p>
               </div>
 
               <!-- Преимущество 2 -->
@@ -91,25 +102,43 @@
                   <i class="fas fa-handshake"></i>
                 </div>
                 <h3 class="feature-title">Индивидуальный подход</h3>
-                <p class="feature-text">Для каждого клиента мы разрабатываем персонализированные решения, учитывая все нюансы бизнеса.</p>
+                <p class="feature-text">Персональные решения для каждого проекта. Учет всех пожеланий и особенностей вашего объекта.</p>
               </div>
 
               <!-- Преимущество 3 -->
               <div class="feature-card">
                 <div class="feature-icon">
-                  <i class="fas fa-chart-line"></i>
+                  <i class="fas fa-tools"></i>
                 </div>
-                <h3 class="feature-title">Результаты</h3>
-                <p class="feature-text">90% наших клиентов отмечают рост ключевых показателей уже в первый месяц сотрудничества.</p>
+                <h3 class="feature-title">Качество строительства</h3>
+                <p class="feature-text">Передовые технологии и строгий контроль на каждом этапе работ.</p>
               </div>
 
               <!-- Преимущество 4 -->
               <div class="feature-card">
                 <div class="feature-icon">
-                  <i class="fas fa-headset"></i>
+                  <i class="fas fa-calendar-check"></i>
                 </div>
-                <h3 class="feature-title">Поддержка 24/7</h3>
-                <p class="feature-text">Наша служба поддержки работает круглосуточно, чтобы решить любые возникшие вопросы.</p>
+                <h3 class="feature-title">Сроки выполнения</h3>
+                <p class="feature-text">Строгое соблюдение сроков без компромиссов в качестве.</p>
+              </div>
+
+              <!-- Преимущество 5 -->
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-medal"></i>
+                </div>
+                <h3 class="feature-title">Гарантия качества</h3>
+                <p class="feature-text">Официальная гарантия до 10 лет на все виды работ.</p>
+              </div>
+
+              <!-- Преимущество 6 -->
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-box-open"></i>
+                </div>
+                <h3 class="feature-title">Надёжные материалы</h3>
+                <p class="feature-text">Материалы премиум-класса от проверенных поставщиков.</p>
               </div>
             </div>
         </div>
@@ -121,7 +150,7 @@
 
       <div class="container">
         <div class="copyright">
-          &copy; 2025 Название компании. Все права защищены.
+          &copy; 2025 АльянсСтрой. Все права защищены.
         </div>
       </div>
     
