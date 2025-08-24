@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="tu">
 
   <head>
     
@@ -8,8 +8,15 @@
     <meta name="author" content="DmitrGl" />
     <meta name="description" 
       content="Профессиональные услуги: [перечень 3-5 ключевых услуг]. Подробное описание каждого вида работ и наши преимущества" />
-    <title>My company site</title>
-    <link rel="icon" href="images/favicon.jpg" type="image/x-icon"/>
+    <title>Компания "АльянсСтрой" - Услуги</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+    <link rel="manifest" href="images/site.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+
     <link rel="stylesheet" href="css/style.css">
     <script src = "js/main.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -32,17 +39,17 @@
     <header>
       <div class="container">
         <nav>
-          <a href="index.html" class="logo">Company<span>Name</span></a>
+          <a href="index.html" class="logo">Альянс<span>Строй</span></a>
           <ul class="menu">
             
-            <li class="item"><a href=index.html class="link"> Home</a></li>
-            <li class="item"><a href=about.html class="link"> About</a></li>
-            <li class="item"><a href=contact.html class="link"> Contact</a></li>
-            <li class="item"><a href=portfolio.html class="link"> Portfolio</a></li>
-            <li class="item"><span>Services</span></li>
+            <li class="item"><a href=index.html class="link"> Главная</a></li>
+            <li class="item"><a href=about.html class="link"> О нас</a></li>
+            <li class="item"><a href=contact.html class="link"> Контакты</a></li>
+            <li class="item"><a href=portfolio.html class="link"> Наши работы</a></li>
+            <li class="item"><span>Услуги</span></li>
           </ul>
         </nav>
-          <h1>our services</h1> 
+          <h1>Наши услуги</h1> 
       </div>
     </header>
 
@@ -50,18 +57,307 @@
 
       
 
-      <section class="section">
+      <section class="section services">
         <div class="container">
           <h2 class="section-title">Наши услуги</h2>
+
           <div class="services-grid">
+            <!-- Проектирование -->
             <div class="service-card">
-              <div class="service-icon">💼</div>
+              <div class="service-icon">
+                <i class="fas fa-drafting-compass"></i>
+              </div>
               <div class="service-content">
-                <h3 class="service-title">Консалтинг</h3>
-                <p>Описание услуги...</p>
+                <h3 class="service-title">Проектирование</h3>
+                <p class="service-text">Профессиональное проектирование объектов любой сложности с соблюдением всех стандартов и норм.</p>
+                <ul class="service-features">
+                  <li><i class="fas fa-check"></i> Архитектурные решения</li>
+                  <li><i class="fas fa-check"></i> Конструктивные расчеты</li>
+                  <li><i class="fas fa-check"></i> Инженерные системы</li>
+                  <li><i class="fas fa-check"></i> Сметная документация</li>
+                </ul>
               </div>
             </div>
-            <!-- ... -->
+          
+            <!-- Асфальтирование -->
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-road"></i>
+              </div>
+              <div class="service-content">
+                <h3 class="service-title">Асфальтирование</h3>
+                <p class="service-text">Качественное асфальтирование территорий с гарантией на выполненные работы.</p>
+                <ul class="service-features">
+                  <li><i class="fas fa-check"></i> Дороги и parkingи</li>
+                  <li><i class="fas fa-check"></i> Тротуары и площадки</li>
+                  <li><i class="fas fa-check"></i> Ямочный ремонт</li>
+                  <li><i class="fas fa-check"></i> Уплотнение покрытия</li>
+                </ul>
+              </div>
+            </div>
+          
+            <!-- Благоустройство -->
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-tree"></i>
+              </div>
+              <div class="service-content">
+                <h3 class="service-title">Благоустройство</h3>
+                <p class="service-text">Комплексное благоустройство и озеленение территорий под ключ.</p>
+                <ul class="service-features">
+                  <li><i class="fas fa-check"></i> Озеленение и газоны</li>
+                  <li><i class="fas fa-check"></i> Малые архитектурные формы</li>
+                  <li><i class="fas fa-check"></i> Освещение территории</li>
+                  <li><i class="fas fa-check"></i> Дорожно-тропиночная сеть</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section documentation">
+        <div class="container">
+
+          <!-- Документы -->
+          <div class="docs-section">
+            <h3 class="docs-title">Необходимые документы</h3>
+            <div class="docs-grid">
+              <!-- Документ 1 -->
+              <div class="doc-card">
+                <div class="doc-icon">
+                  <i class="fas fa-file-contract"></i>
+                </div>
+                <div class="doc-content">
+                  <h4>Техническое задание</h4>
+                  <p>Подробное описание требований к проекту, целей и ожидаемых результатов</p>
+                  <div class="doc-details">
+                    <span class="doc-required">Обязательный</span>
+                    <span class="doc-format">DOC/PDF</span>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Документ 2 -->
+              <div class="doc-card">
+                <div class="doc-icon">
+                  <i class="fas fa-map-marked-alt"></i>
+                </div>
+                <div class="doc-content">
+                  <h4>План территории</h4>
+                  <p>Кадастровый план или схема участка с размерами и привязкой к местности</p>
+                  <div class="doc-details">
+                    <span class="doc-required">Обязательный</span>
+                    <span class="doc-format">DWG/PDF</span>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Документ 3 -->
+              <div class="doc-card">
+                <div class="doc-icon">
+                  <i class="fas fa-file-signature"></i>
+                </div>
+                <div class="doc-content">
+                  <h4>Правоустанавливающие документы</h4>
+                  <p>Документы, подтверждающие право собственности или аренды территории</p>
+                  <div class="doc-details">
+                    <span class="doc-required">Обязательный</span>
+                    <span class="doc-format">PDF/JPG</span>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Документ 4 -->
+              <div class="doc-card">
+                <div class="doc-icon">
+                  <i class="fas fa-clipboard-list"></i>
+                </div>
+                <div class="doc-content">
+                  <h4>Технические условия</h4>
+                  <p>ТУ на подключение к инженерным сетям (при необходимости)</p>
+                  <div class="doc-details">
+                    <span class="doc-optional">Опциональный</span>
+                    <span class="doc-format">PDF</span>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Документ 5 -->
+              <div class="doc-card">
+                <div class="doc-icon">
+                  <i class="fas fa-photo-video"></i>
+                </div>
+                <div class="doc-content">
+                  <h4>Фото/видео материалы</h4>
+                  <p>Фотографии текущего состояния территории с разных ракурсов</p>
+                  <div class="doc-details">
+                    <span class="doc-optional">Рекомендуемый</span>
+                    <span class="doc-format">JPG/MP4</span>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Документ 6 -->
+              <div class="doc-card">
+                <div class="doc-icon">
+                  <i class="fas fa-file-invoice"></i>
+                </div>
+                <div class="doc-content">
+                  <h4>Реквизиты компании</h4>
+                  <p>Для юридических лиц - карточка предприятия с банковскими реквизитами</p>
+                  <div class="doc-details">
+                    <span class="doc-required">Для юр. лиц</span>
+                    <span class="doc-format">DOC/PDF</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Этапы работы -->
+          <div class="stages-section">
+            <h3 class="stages-title">Этапы оказания услуг</h3>
+
+            <div class="stages-timeline">
+              <!-- Этап 1 -->
+              <div class="stage-item">
+                <div class="stage-header">
+                  <div class="stage-number">01</div>
+                  <div class="stage-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <h4>Консультация и заявка</h4>
+                </div>
+                <div class="stage-content">
+                  <p>Первичная консультация, обсуждение задач и требований к проекту</p>
+                  <ul class="stage-details">
+                    <li>Бесплатный выезд специалиста</li>
+                    <li>Предварительная оценка объема работ</li>
+                    <li>Составление технического задания</li>
+                  </ul>
+                  <div class="stage-duration">
+                    <i class="fas fa-clock"></i>
+                    <span>1-2 дня</span>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Этап 2 -->
+              <div class="stage-item">
+                <div class="stage-header">
+                  <div class="stage-number">02</div>
+                  <div class="stage-icon">
+                    <i class="fas fa-ruler-combined"></i>
+                  </div>
+                  <h4>Замеры и проектирование</h4>
+                </div>
+                <div class="stage-content">
+                  <p>Детальные замеры территории и разработка проектной документации</p>
+                  <ul class="stage-details">
+                    <li>Геодезическая съемка участка</li>
+                    <li>Разработка 3D-визуализации</li>
+                    <li>Согласование проектного решения</li>
+                  </ul>
+                  <div class="stage-duration">
+                    <i class="fas fa-clock"></i>
+                    <span>3-7 дней</span>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Этап 3 -->
+              <div class="stage-item">
+                <div class="stage-header">
+                  <div class="stage-number">03</div>
+                  <div class="stage-icon">
+                    <i class="fas fa-file-contract"></i>
+                  </div>
+                  <h4>Заключение договора</h4>
+                </div>
+                <div class="stage-content">
+                  <p>Подготовка и подписание договора со сметой и графиком работ</p>
+                  <ul class="stage-details">
+                    <li>Фиксированная цена в договоре</li>
+                    <li>Прозрачная смета расходов</li>
+                    <li>График поэтапных платежей</li>
+                  </ul>
+                  <div class="stage-duration">
+                    <i class="fas fa-clock"></i>
+                    <span>1 день</span>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Этап 4 -->
+              <div class="stage-item">
+                <div class="stage-header">
+                  <div class="stage-number">04</div>
+                  <div class="stage-icon">
+                    <i class="fas fa-hard-hat"></i>
+                  </div>
+                  <h4>Подготовительные работы</h4>
+                </div>
+                <div class="stage-content">
+                  <p>Подготовка территории и доставка необходимых материалов</p>
+                  <ul class="stage-details">
+                    <li>Расчистка и планировка территории</li>
+                    <li>Доставка материалов и оборудования</li>
+                    <li>Установка ограждения и знаков</li>
+                  </ul>
+                  <div class="stage-duration">
+                    <i class="fas fa-clock"></i>
+                    <span>1-3 дня</span>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Этап 5 -->
+              <div class="stage-item">
+                <div class="stage-header">
+                  <div class="stage-number">05</div>
+                  <div class="stage-icon">
+                    <i class="fas fa-tools"></i>
+                  </div>
+                  <h4>Основные работы</h4>
+                </div>
+                <div class="stage-content">
+                  <p>Выполнение основных работ согласно утвержденному проекту</p>
+                  <ul class="stage-details">
+                    <li>Устройство основания</li>
+                    <li>Асфальтирование/благоустройство</li>
+                    <li>Ежедневный контроль качества</li>
+                  </ul>
+                  <div class="stage-duration">
+                    <i class="fas fa-clock"></i>
+                    <span>5-14 дней</span>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Этап 6 -->
+              <div class="stage-item">
+                <div class="stage-header">
+                  <div class="stage-number">06</div>
+                  <div class="stage-icon">
+                    <i class="fas fa-clipboard-check"></i>
+                  </div>
+                  <h4>Сдача объекта и гарантия</h4>
+                </div>
+                <div class="stage-content">
+                  <p>Приемка работ и подписание акта сдачи-приемки</p>
+                  <ul class="stage-details">
+                    <li>Финальная проверка качества</li>
+                    <li>Подписание актов выполненных работ</li>
+                    <li>Передача гарантийных документов</li>
+                  </ul>
+                  <div class="stage-duration">
+                    <i class="fas fa-clock"></i>
+                    <span>1 день</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -72,7 +368,7 @@
 
       <div class="container">
         <div class="copyright">
-          &copy; 2025 Название компании. Все права защищены.
+          &copy; 2025 АльянсСтрой. Все права защищены.
         </div>
       </div>
     
