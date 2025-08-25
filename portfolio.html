@@ -1,6 +1,11 @@
 <!doctype html>
 <html lang="ru">
-
+<!-- API: patesK9XUSduWCwDq.a49a22a975203e8376b53cafd13594d0ab4b3c69d96f10d07f1cd4e760a373b0 
+      The ID of this base is appBWg4C27WYIidvn.  
+      The id for Table 1 is tblU5ngVZGQsCCrhH.
+      Table name: firm-website-portfolio-base
+      fields: "Название объекта", "Описание", "Тип работы", "Срок (дней)", "Фотографии", "Документы"  
+-->
   <head>
     
     <meta charset="utf-8" />
@@ -52,14 +57,32 @@
             <li class="item"><a href=services.html class="link"> Услуги</a></li>
           </ul>
         </nav>
-        <h1>Наши работы</h1>
+        <h1 class="section-title">Наши Работы</h1>
       </div>
     
     </header>
 
     <main>
 
-      
+      <section class="section portfolio">
+        <div class="container">
+          <h2 class="section-title">Наши работы</h2>
+          <p class="portfolio-subtitle">Реализованные проекты компании АльянсСтрой</p>
+        
+          <div class="portfolio-grid" id="portfolio-grid">
+            <div class="loading">
+              <i class="fas fa-spinner fa-spin"></i>
+              <p>Загружаем проекты...</p>
+            </div>
+          </div>
+        
+          <div class="error" id="error-message" style="display: none;">
+            <i class="fas fa-exclamation-triangle"></i>
+            <p>Не удалось загрузить проекты</p>
+            <button onclick="loadProjects()">Попробовать снова</button>
+          </div>
+        </div>
+      </section>
       
     </main>
 

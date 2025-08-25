@@ -1004,5 +1004,162 @@ footer {
     font-size: 0.9rem;
 }
 
+/* Секция портфолио */
+.portfolio {
+    background: #f8f9fa;
+    padding: 80px 0;
+}
 
+.section-title {
+    text-align: center;
+    color: #0056b3;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.portfolio-subtitle {
+    text-align: center;
+    color: #6c757d;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
+
+/* Сетка проектов */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Карточка проекта */
+.project-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.project-content {
+    padding: 20px;
+}
+
+.project-title {
+    color: #0056b3;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.project-details {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.project-detail {
+    margin-bottom: 5px;
+}
+
+.view-project {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background 0.2s ease;
+}
+
+.view-project:hover {
+    background: #003d82;
+}
+
+/* Загрузка */
+.loading {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 60px 20px;
+    color: #6c757d;
+}
+
+.loading i {
+    font-size: 3rem;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+.loading p {
+    font-size: 1.1rem;
+}
+
+/* Ошибка */
+.error {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 40px 20px;
+    background: #ffeaea;
+    border: 1px solid #dc3545;
+    border-radius: 10px;
+    color: #dc3545;
+}
+
+.error i {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.error p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.error button {
+    padding: 10px 20px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.error button:hover {
+    background: #c82333;
+}
+
+/* Адаптивность */
+@media (max-width: 1024px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .project-image {
+        height: 200px;
+    }
+}
 
