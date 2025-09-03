@@ -65,15 +65,18 @@ function displayProjects(projects) {
             <div class="project-card">
                 <img src="${imageUrl}" alt="${fields.Title || 'Проект'}" class="project-image" loading="lazy">
                 <div class="project-content">
-                    <h3 class="project-title">${fields.Title || 'Без названия'}</h3>
+                    <h3 class="project-title">${fields.Title || 'Проект скоро будет добавлен'}</h3>
                     <div class="project-details">
-                        ${fields.Area ? `<div class="project-detail">${fields.Area}</div>` : ''}
-                        ${fields.Duration ? `<div class="project-detail">${fields.Duration}</div>` : ''}
+                        ${fields.Category ? `<div class="project-detail">Тип работ: ${fields.Category   }</div>` : ''}
+                        ${fields.Area ? `<div class="project-detail">Площадь: ${fields.Area}</div>` : ''}
+                        ${fields.Duration ? `<div class="project-detail">Время выполнения: ${fields.Duration}</div>` : ''}
                         ${fields.Year ? `<div class="project-detail">Год: ${fields.Year}</div>` : ''}
+                        ${fields.Description ? `<div class="project-detail">${fields.Description}</div>` : ''}
                     </div>
-                    <a href="project.html?id=${project.id}" class="view-project">
+                    <a href="https://airtable.com/appBWg4C27WYIidvn/shrM3ZL8ZGPJIeYVD/tblU5ngVZGQsCCrhH/viwHV99kfLN2Hj4KP/${project.id}" class="view-project">
                         Смотреть проект
                     </a>
+                    
                 </div>
             </div>
         `;
@@ -92,7 +95,7 @@ function getImageUrl(fields) {
     }
     
     // Заглушка если нет изображения
-    return 'https://via.placeholder.com/400x300/0056b3/ffffff?text=Нет+фото';
+    return '/images/placeholder.jpg';
 }
 
 // Создание slug для URL
