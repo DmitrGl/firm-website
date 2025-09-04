@@ -97,7 +97,7 @@ function getImageUrl(fields) {
     }
     
     // Заглушка если нет изображения
-    return '/images/placeholder.jpg';
+    return 'images/placeholder.jpg';
 }
 
 // Создание slug для URL
