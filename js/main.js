@@ -73,9 +73,11 @@ function displayProjects(projects) {
                         ${fields.Year ? `<div class="project-detail">Год: ${fields.Year}</div>` : ''}
                         ${fields.Description ? `<div class="project-detail">${fields.Description}</div>` : ''}
                     </div>
+                    <!--
                     <a href="https://airtable.com/appBWg4C27WYIidvn/shrM3ZL8ZGPJIeYVD/tblU5ngVZGQsCCrhH/viwHV99kfLN2Hj4KP/${project.id}" class="view-project">
                         Смотреть проект
                     </a>
+                    -->
                     
                 </div>
             </div>
