@@ -1119,17 +1119,16 @@ footer {
   }
   
   .menu {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
-    margin-top: 10px;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   .menu .item {
-    margin-left: 0rem;
     text-align: center;
     white-space: normal;
     padding: 5px;
+    margin: 0;
   }
   
   .menu .item span,
@@ -1160,12 +1159,6 @@ footer {
     margin-bottom: 5px;
   }
   
-  .menu .item {
-    margin-left: 0rem;
-  }
-  .menu {
-    grid-template-columns: 1fr;
-  }
   
   .menu .item span,
   .menu .item a {
