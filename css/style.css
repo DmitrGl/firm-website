@@ -1001,6 +1001,42 @@ footer {
   .project-image {
     height: 200px;
   }
+  
+  header .container {
+        padding: 0 15px;
+    }
+    
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    .logo img {
+        margin-right: 10px;
+    }
+    
+    .menu {
+        flex-direction: column;
+        padding: 0;
+        gap: 10px;
+    }
+    
+    .menu .item {
+        margin: 5px 0;
+    }
+    
+    .section-title {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
 }
 
 @media (max-width: 600px) {
